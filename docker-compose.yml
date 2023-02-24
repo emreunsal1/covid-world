@@ -1,0 +1,8 @@
+version: "3.5"
+
+services:
+  covid-app: 
+    build: .
+    container_name: covid-world-application
+    ports:
+      - "8080:8080"
