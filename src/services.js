@@ -1,12 +1,8 @@
-import dotenv from "dotenv";
-
-dotenv.config();
-
 export const getAllCountryAndCity = async () => {
   const options = {
     method: "GET",
     headers: {
-      "X-RapidAPI-Key": process.env.API_KEY,
+      "X-RapidAPI-Key": "3bd97e24a5msh986e62d8a791fb1p10c6a4jsnf1896bc42864",
       "X-RapidAPI-Host": "covid-19-coronavirus-statistics.p.rapidapi.com",
     },
   };
@@ -26,7 +22,7 @@ export const fetchCountryDetail = async (countryName) => {
   const options = {
     method: "GET",
     headers: {
-      "X-RapidAPI-Key": process.env.API_KEY,
+      "X-RapidAPI-Key": "3bd97e24a5msh986e62d8a791fb1p10c6a4jsnf1896bc42864",
       "X-RapidAPI-Host": "covid-19-coronavirus-statistics.p.rapidapi.com",
     },
   };
